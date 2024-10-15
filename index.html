@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | PT_NGFW</title>
+    <title>Unity WebGL Player | ERS</title>
 
   
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
@@ -13,7 +13,7 @@
 <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" tabindex="-1"
         style="width: 100vw; height: 100vh; background: #231F20"></canvas>
-    <script src="Build/5336a4b2c43054286fd70b1faa467eee.loader.js"></script>
+    <script src="Build/ers.loader.js"></script>
     <script>
         if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
             // Mobile device style: fill the whole browser client area with the game canvas:
@@ -31,12 +31,12 @@
         }
 
         createUnityInstance(document.querySelector("#unity-canvas"), {
-            dataUrl: "Build/a2932c6a74d2c1046413422bb09c156e.data.unityweb",
-            frameworkUrl: "Build/3b9399feba453403a6475871464c9ef6.framework.js.unityweb",
-        codeUrl: "Build/4d1c2e5bcedff0ef3875fa4653bd63a5.wasm.unityweb",
+            dataUrl: "Build/ers.data.br",
+            frameworkUrl: "Build/ers.framework.js.br",
+        codeUrl: "Build/ers.wasm.br",
         streamingAssetsUrl: "StreamingAssets",
-            companyName: "DefaultCompany",
-            productName: "PT_NGFW",
+            companyName: "KVIP",
+            productName: "ERS",
             productVersion: "1.0",
         // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
